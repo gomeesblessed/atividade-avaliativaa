@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   background-color:#fcfffb;
+   height: 150px;
+   width: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 20px;
+   box-shadow: 5px 5px 5px black;
+}
+
+.logo img{
+   width: 150px;
+   height: 150px;
+   background-color: #fd8787;
+   margin-left: 10px;
+   display: flex;
+}
+.link{
+    
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.botao{
+width: 120px;
+height: 40px;  
+background-color: hwb(0 99% 1%);
+box-shadow: 10px 10px 10px rgb( rgb(0, 0, 0));
+border-radius: 25px;
+font-size: 15px;
+align-items: center;
+margin-right: 50px;
+
+}
+
+body{
+  background-color: bisque
+}
+
+.container-sessaobanner img{
+  width: 1920px;
+ height: 600px; 
+ margin-top: 10px;
+ box-shadow: 50px 50px 50px rgb( rgb(255, 254, 254));
+
+}
+
+.imagem{
+    position: relative;
+
+}
